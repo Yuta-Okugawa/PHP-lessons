@@ -1,13 +1,17 @@
 <?php
     
-    $i = 1;
-    $num = "";
+    error_reporting(-1);
+
+   
+    $num = "&nbsp;&nbsp;";
     
     if(isset($_GET['index'])){
-        if($i <= 5){
-            echo "$i"."$num";
-            ++$i;
-            $num = "$num"."&nbsp;&nbsp;"."<br>";
+        for($i = 1; $i <= 5; $i++){
+             if($i <= 5){
+            echo "$i"."<br>"."$num";
+          
+            $num = "$num"."&nbsp;&nbsp;";
+            }
         }
  
     } else {
@@ -15,7 +19,6 @@
             <input type='submit' name='index' value='実行'>
         </form>";
     }
-
 ?>
 <!DOCTYPE html>
 <html>
