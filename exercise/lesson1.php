@@ -1,7 +1,15 @@
 <?php
-
+    
+    $i = 1;
+    $num = "";
+    
     if(isset($_GET['index'])){
-        echo "1<br>&nbsp;&nbsp;2<br>&nbsp;&nbsp;&nbsp;&nbsp;3<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5<br>";
+        if($i <= 5){
+            echo "$i"."$num";
+            ++$i;
+            $num = "$num"."&nbsp;&nbsp;"."<br>";
+        }
+ 
     } else {
         echo "<form action='test.php' method='get'>
             <input type='submit' name='index' value='実行'>
