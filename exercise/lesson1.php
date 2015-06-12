@@ -14,11 +14,11 @@
 
             if(isset($_GET['index'])){
                 for($i = 1; $i <= 5; $i++){
-                     if($i <= 5){
+                     
                     echo "$i"."<br>"."$num";
 
                     $num = "$num"."&nbsp;&nbsp;";
-                    }
+                
                 }
 
             } else {
