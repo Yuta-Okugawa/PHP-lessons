@@ -26,7 +26,7 @@
                     echo "$i"."<br>"."$num";
                 }
             } else {
-                echo "<form action='test.php' method='get'>
+                echo "<form action='lesson2.php' method='get'>
                     <input type='submit' name='index' value='実行'>
                 </form>";
             }
