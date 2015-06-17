@@ -1,13 +1,12 @@
 <?php
     $result = "九桁の数字を入力してください。";
     if(isset($_POST['int'])){
-        if(!is_numeric($_POST['int'])){
-            $result = "数字を半角で入力してください。";
+        if(!ctype_digit($_POST['int'])){
+            $result = "数字（自然数）を半角で入力してください。";
         } elseif(mb_strlen($_POST['int']) != 9){
             $result = "桁数が間違っています。"; 
         } else {
             $array = str_split($_POST['int'], 1);
-            //var_dump($array);
             $result = "九つの数字の合計は「".array_sum($array)."」です。";
         }
     }
