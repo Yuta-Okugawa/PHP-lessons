@@ -1,13 +1,22 @@
 <?php
+
+    error_reporting(-1);
+
     $result = "九桁の数字を入力してください。";
-    if(isset($_POST['int'])){
+    if(isset($_POST['int'])){  
         if(!ctype_digit($_POST['int'])){
             $result = "数字（自然数）を半角で入力してください。";
-        } elseif(mb_strlen($_POST['int']) != 9){
-            $result = "桁数が間違っています。"; 
-        } else {
-            $array = str_split($_POST['int'], 1);
-            $result = "九つの数字の合計は「".array_sum($array)."」です。";
+        } else{
+            $int = (int)$_POST['int'];
+            if(!preg_match("/[0-9]{9}/", $int)){
+                $result = "桁数が間違っています。"; 
+            } elseif(preg_match("/[0-9]{10,}/", $int)){
+                $result = "桁数が間違っています。"; 
+            } else {
+                $array = preg_split("//",$int);
+                //var_dump($array);
+                $result = "九つの数字の合計は「".array_sum($array)."」です。";
+            }
         }
     }
 ?>
