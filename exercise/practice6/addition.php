@@ -26,8 +26,7 @@
     <body>
         <form action="addition.php" method="post">
             <?php echo $result; ?><br>
-            <input type="text" name="add">
-            <input type="submit" value="足す">
+            <input type="submit" name="add" value="足す">
         </form>
     </body>
 </html>
