@@ -1,8 +1,10 @@
 <?php
-    $result = "変換するアルファベット1文字を大文字で入力してください。";
+    error_reporting(-1);
+
+    $result = "変換するアルファベット1文字を入力してください。";
     if(isset($_POST['str'])){
-        if(!ctype_upper($_POST['str'])){
-            $result = "アルファベットを半角大文字で入力してください。";
+        if(!ctype_alpha($_POST['str'])){
+            $result = "アルファベットを半角で入力してください。";
         } elseif(mb_strlen($_POST['str']) != 1){
             $result = "文字数は1文字入力してください。"; 
         } else {
