@@ -16,15 +16,6 @@
     $last_day = date('j', mktime(0, 0, 0, $month + 1, 0, $year));
     $calendar = array();
     $j = 0;
-
-    function makeSelect($under,$upper){
-        
-        for($m = $under; $m <= $upper; $m++){
-            echo "<option value='".$m."'>".$m."</option>";
-        }
-        echo "</select>";
-    }
-
     // 月末日までループ
     for ($i = 1; $i < $last_day + 1; $i++) {
          // 曜日を取得
@@ -51,6 +42,13 @@
             }
         }
     } 
+    function makeSelect($under,$upper){
+        for($m = $under; $m <= $upper; $m++){
+            echo "<option value='".$m."'>".$m."</option>";
+        }
+        echo "</select>";
+    }
+
 ?>
 <!DOCTYPE html>
 <html>
