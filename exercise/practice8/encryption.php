@@ -1,8 +1,12 @@
 <?php
 
     error_reporting(-1);
-
-    $message = "4~6桁の数字を入力してください。";//送信前のメッセージ
+    // 暗号化のキーと値
+    $changeNum = array("0"=>"m", "1"=>"y", "2"=>"V", "3"=>"q", "4"=>"P", "5"=>"w", "6"=>"x", "7"=>"L", "8"=>"p", "9"=>"a" );
+    //送信前のメッセージ
+    $message = "4~6桁の数字を入力してください。";
+    
+    // 値がポストされた時
     if(isset($_POST['number'])){  
         
         //FAlSE時のメッセージ
@@ -22,21 +26,11 @@
                 // 暗号化された文字列を格納する変数
                 $result = "";
                 // 受け取った数値を暗号化する関数
-                $result = encryption($number);
+                $result = strtr($number, $changeNum);
+                //$result = encryption($number);
                 $message = "変換後⇒".$result;
             } 
         }
-    }
-    function encryption($number){
-            // 暗号化の設定
-            // 検索用配列
-            $searchNum = array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9");
-            // 変換用配列
-            $key = array("m", "y", "V", "q", "P", "w", "x", "L", "p", "a");
-            // 変換されたデータ
-            $result = str_replace($searchNum, $key, $number);
-            return $result;
-           
     }
 ?>
 <!doctype html>
