@@ -1,23 +1,23 @@
+<?php
+error_reporting(4);
+require_once("config.php");
+
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>問題11:新幹線の座席を選ぶ（設定）</title>
+        <title>動作確認２</title>
     </head>
     <body>
-        <form action="seatCheck.php" method="post" name="seatTable">
+        <form action="check.php" method="post" name="seatTable">
             <table border="1">
                 <tr>
                     <td colspan="6" align="center">予約設定(予約済みの席を選択)</td>
                 </tr>
-                <tr>
-                    <th>A</th>
-                    <th>B</th>
-                    <th>C</th>
-                    <th rowspan="2">（通路）</th>
-                    <th>D</th>
-                    <th>E</th>
-                </tr>
+                <?php makeSeatList($seatName,$colCount,$leftSeat); ?>
                 <tr>
                     <td>
                         <input type="checkbox" name="seat[]" value="1">
@@ -40,14 +40,7 @@
                 <tr>
                     <td colspan="6" align="center">優先順位(値を重複させないでください)</td>
                 </tr>
-                <tr>
-                    <th>A</th>
-                    <th>B</th>
-                    <th>C</th>
-                    <th rowspan="2">（通路）</th>
-                    <th>D</th>
-                    <th>E</th>
-                </tr>
+                <?php makeSeatList($seatName,$colCount,$leftSeat); ?>
                 <tr>
                     <?php for($i=1; $i<=5; $i++):?>
                     <td>

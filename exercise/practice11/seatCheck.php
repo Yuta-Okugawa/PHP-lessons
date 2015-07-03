@@ -1,19 +1,11 @@
 <?php
-error_reporting(-1);
+error_reporting(4);
+require_once("config.php");
 
-if(!isset($_POST{'seat'}) || array_sum($_POST['priority']) != 15){
+if(array_sum($_POST['priority']) != 15){
     header("Location: seat_conf.php");
 }
 
-
-
-define("UNBOOKED", "○");
-define("BOOKED", "×");
-define("GETSEAT", "◎");
-$errmsg = "";
-
-$seat = $_POST["seat"];
-$emptySeat = array ("1" => UNBOOKED, "2" => UNBOOKED, "3" => UNBOOKED, "4" => UNBOOKED, "5" => UNBOOKED);
 
 
 foreach($seat as $a){
@@ -33,35 +25,25 @@ if(count($seat) == count($emptySeat)){
         }
     }
 }
+
+
+
+
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>問題11:新幹線の座席を選ぶ</title>
+        <title>動作確認</title>
     </head>
     <body>
         <table border="1">
             <tr>
                 <td colspan="6" align="center">予約状況</td>
             </tr>
-            <tr>
-                <th>A</th>
-                <th>B</th>
-                <th>C</th>
-                <th rowspan="2">(通路)</th>
-                <th>D</th>
-                <th>E</th>
-            </tr>
-            <tr>
-                <?php foreach ($emptySeat as $value ): ?>
-                <td>
-                    <?php echo $value; ?>
-                </td>
-                <?php endforeach; ?>
-                
-            </tr>
+                <?php makeSeatList($seatName,$colCount,$leftSeat); ?>
+                <?php makeBookingList($emptySeat);?>
         </table>
         <p><?php echo $errmsg; ?></p>
     </body>
