@@ -1,5 +1,4 @@
 <?php
-header('Content-type: application/json');
 mb_language("uni");
 mb_internal_encoding("utf-8"); //内部文字コードを変更
 mb_http_input("auto");
@@ -28,7 +27,7 @@ while($row = mysql_fetch_object($query)){
     ,'add_name' => $row->add_name
     );
 }
-
+header('Content-type: application/json');
 //jsonとして出力
 
 print json_encode($user);

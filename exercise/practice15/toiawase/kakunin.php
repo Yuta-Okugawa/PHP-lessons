@@ -30,7 +30,7 @@
         </style>
     </head>
     <body>
-        <form name="fm" action="kanryo.php" method="post">
+        <form name="fm" action="index.php" method="post">
             <input type="hidden" name="name" value="<?php echo $name;?>">
             <input type="hidden" name="furi" value="<?php echo $furi;?>">
             <input type="hidden" name="mail" value="<?php echo $mail;?>">
@@ -40,6 +40,7 @@
             <input type="hidden" name="add2" value="<?php echo $add2;?>">
             <input type="hidden" name="add3" value="<?php echo $add3;?>">
             <input type="hidden" name="toiawase" value="<?php echo $toiawase;?>">
+            <input type="hidden" name="soshin" value="soshin">
             
             <table>
                 <tr>

@@ -84,8 +84,7 @@
     </head>
     <body>
 <!--===================お問い合わせフォーム=====================-->
-        <form name="fm" action="toiawase.php" method="post">
-            <input type="hidden" name="checkFirst" value="check">
+        <form name="fm" action="index.php" method="post">
             <table>
                 <tr>
                     <th colspan="2">
@@ -97,21 +96,21 @@
                     <th>名前※</th>
                     <td>
                         <input type="text" name="name" value="<?php if(isset($name)){echo $name;}?>"><br>
-                        <?php echo $nameResult; ?>
+                        <?php if(isset($errMsg)){echo $errMsg['name'];} ?>
                     </td>
                 </tr>
                 <tr>
                     <th>名前フリガナ<br>（全角カタカナ）※</th>
                     <td>
                         <input type="text" name="furi" value="<?php if(isset($furi)){echo $furi;}?>"><br>
-                        <?php echo $furiResult; ?>
+                        <?php if(isset($errMsg)){echo $errMsg['furi'];} ?>
                     </td>
                 </tr>
                 <tr>
                     <th>メールアドレス※</th>
                     <td>
                         <input type="text" name="mail" size="50" value="<?php if(isset($mail)){echo $mail;}?>"><br>
-                        <?php echo $mailResult; ?>
+                        <?php if(isset($errMsg)){echo $errMsg['mail']; }?>
                     </td>
                 </tr>
                 <tr>
@@ -119,42 +118,47 @@
                     <td>
                         <input type="text" name="zipcode" id="zip" value="<?php if(isset($zipcode)){echo $zipcode;}?>">
                         <input type="button" name="search" value="住所検索" onclick="asyncSend()"><br>
-                        <?php echo $zipResult; ?>
+                        <?php if(isset($errMsg)){echo $errMsg['zipcode']; }?>
                     </td>
                 </tr>
                 <tr>
                     <th>都道府県※</th>
                     <td>
                         <input type="text" name="pref" size="60" id="pref" value="<?php if(isset($pref)){echo $pref;}?>"><br>
-                        <?php echo $prefResult; ?>
+                        <?php if(isset($errMsg)){echo $errMsg['pref']; }?>
                     </td>
                 </tr>
                 <tr>
                     <th>住所１(市区町村)※</th>
                     <td>
                         <input type="text" name="add1" size="60" id="add1" value="<?php if(isset($add1)){echo $add1;}?>" ><br>
-                        <?php echo $add1Result; ?>
+                        <?php if(isset($errMsg)){echo $errMsg['add1']; }?>
                     </td>
                 </tr>
                 <tr>
                     <th>住所２(番地など)※</th>
                     <td>
                         <input type="text" name="add2" size="60" id="add2" value="<?php if(isset($add2)){echo $add2;}?>"><br>
-                        <?php echo $add2Result; ?>
+                        <?php if(isset($errMsg)){echo $errMsg['add2']; }?>
                     </td>
                 </tr>
                 <tr>
                     <th>住所３(マンション・建物名など)</th>
                     <td>
                         <input type="text" name="add3" size="60" id="add3" value="<?php if(isset($add3)){echo $add3;}?>">
+                        <?php if(isset($errMsg)){echo $errMsg['add3']; }?>
                     </td>
                 </tr>
                 <tr>
                     <th>お問い合わせ内容</th>
-                    <td><textarea rows="6" cols="70" name="toiawase"><?php if(isset($toiawase)){echo $toiawase;}?></textarea></td>
+                    <td>
+                        <textarea rows="6" cols="70" name="toiawase"><?php if(isset($toiawase)){echo $toiawase;}?></textarea>
+                        <?php if(isset($errMsg)){echo $errMsg['toiawase']; }?>
+                    </td>
                 </tr>
                 <tr>
                     <td colspan="2" class="btn">
+                        <input type="hidden" name="kakunin" value="kakunin">
                         <input type="submit" name="submit" value="確認"> 
                     </td>
                 
