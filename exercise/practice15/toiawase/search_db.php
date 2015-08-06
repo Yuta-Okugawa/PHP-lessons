@@ -11,7 +11,7 @@ if(!$con){
 
 $db_name = "postal_code"; //利用するデータベース名
 mysql_select_db($db_name,$con);
-$sql = "SELECT pref_name,city_name,add_name FROM reference_table WHERE postal_code = '".$_REQUEST['zip']."';";
+$sql = "SELECT pref_name,city_name,add_name FROM reference_table WHERE postal_code = '".mysqli::real_escape_string ($_REQUEST['zip'])."';";
 
 $query = mysql_query($sql);
 
