@@ -1,26 +1,34 @@
 <?php
 require_once("component.php");
+startSession();
+
 
 if(isset($_POST['kakunin']) || isset($_POST['soshin'])){
-    $name = htmlspecialchars($_POST['name'], ENT_QUOTES);
-    $furi = htmlspecialchars($_POST['furi'], ENT_QUOTES);
-    $mail = htmlspecialchars($_POST['mail'], ENT_QUOTES);
-    $zipcode = htmlspecialchars($_POST['zipcode'], ENT_QUOTES);
-    $pref = htmlspecialchars($_POST['pref'], ENT_QUOTES);
-    $add1 = htmlspecialchars($_POST['add1'], ENT_QUOTES);
-    $add2 = htmlspecialchars($_POST['add2'], ENT_QUOTES);
-    $add3 = htmlspecialchars($_POST['add3'], ENT_QUOTES);
-    $toiawase = htmlspecialchars($_POST['toiawase'], ENT_QUOTES);
+    
+    //var_dump($_POST);    
+    $name = h($_POST['name']);
+    $furi = h($_POST['furi']);
+    $mail = h($_POST['mail']);
+    $zipcode = h($_POST['zipcode']);
+    $pref = h($_POST['pref']);
+    $add1 = h($_POST['add1']);
+    $add2 = h($_POST['add2']);
+    $add3 = h($_POST['add3']);
+    $toiawase = $_POST['toiawase'];
+    
     $errMsg = checkAll($_POST);
     
     if(checkError($errMsg)!=0){
         require("nyuryoku.php");
     }elseif(isset($_POST['kakunin'])){
+        checkToken();
         require("kakunin.php");
     }elseif(isset($_POST['soshin'])){
+        checkToken();
         require("soshin.php");
     }
 }else{
+    setToken();
     require("nyuryoku.php");
 }
 

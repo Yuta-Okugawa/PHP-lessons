@@ -159,7 +159,8 @@
                 <tr>
                     <td colspan="2" class="btn">
                         <input type="hidden" name="kakunin" value="kakunin">
-                        <input type="submit" name="submit" value="確認"> 
+                        <input type="hidden" name="token" value="<?php echo h($_SESSION['token']); ?>">
+                        <input type="submit" value="確認"> 
                     </td>
                 
                 </tr>

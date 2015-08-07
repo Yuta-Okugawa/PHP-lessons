@@ -41,7 +41,7 @@
             <input type="hidden" name="add3" value="<?php echo $add3;?>">
             <input type="hidden" name="toiawase" value="<?php echo $toiawase;?>">
             <input type="hidden" name="soshin" value="soshin">
-            
+            <input type="hidden" name="token" value="<?php echo h($_SESSION['token']); ?>">
             <table>
                 <tr>
                     <th colspan="2">
