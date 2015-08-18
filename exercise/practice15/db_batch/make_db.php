@@ -20,8 +20,11 @@ $con = mysql_connect("localhost", "root", "root") or die("接続に失敗しま�
 //データ読み込み
 //
 ///////////////////////////////////////
-//ファイルに読み込み
+//ファイルを読み込む
 $data = file_get_contents(FILE);
+if(!$data){
+    die('ファイルの読み込みに失敗しました');
+}
 //文字コード変換
 $data = mb_convert_encoding($data, 'UTF-8', 'SJIS');
 //半角カナを全角カナに変換
@@ -111,7 +114,7 @@ if (!table_check(DB,RFTABLE,$con)) {
         exit();
     }
     $sql6 = "INSERT INTO ".RFTABLE." SELECT * FROM ".TMPTABLE.";";
-    $rs=mysql_query($sql6)or die(mysql_error());
+    $rs=mysql_query($sql6);
     if(!$rs){
         $sql7 = "ROLLBACK;";
         mysql_query($sql7);

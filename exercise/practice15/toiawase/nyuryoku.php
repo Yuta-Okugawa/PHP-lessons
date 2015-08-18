@@ -45,7 +45,7 @@
                 return req;
             }
             
-                //送信ボタンクリック時の実行されるイベントハンドラ
+                //郵便番号検索ボタンクリック時の実行されるイベントハンドラ
             function asyncSend(){
                 var req = getXHR();
                 //非同期通信時の処理（コールバック関数）を定義
@@ -63,7 +63,7 @@
                     if(req.readyState == 4){//通信の完了時
                         if(req.status == 200){//通信が成功したとき
                             var data = JSON.parse(req.responseText); 
-                            console.log(data[0].pref_name);
+                            //console.log(data[0].pref_name);
                             pref.value = data[0].pref_name;
                             add1.value = data[0].city_name;
                             add2.value = data[0].add_name;
@@ -145,7 +145,7 @@
                 <tr>
                     <th>住所３(マンション・建物名など)</th>
                     <td>
-                        <input type="text" name="add3" size="60" id="add3" value="<?php if(isset($add3)){echo $add3;}?>">
+                        <input type="text" name="add3" size="60" id="add3" value="<?php if(isset($add3)){echo $add3;}?>"><br>
                         <?php if(isset($errMsg)){echo $errMsg['add3']; }?>
                     </td>
                 </tr>
