@@ -15,10 +15,9 @@ if(!$select_db){
     die('データベースに接続できません: ' . mysql_error());
 }
 
-$sql = "SELECT pref_name,city_name,add_name FROM reference_table WHERE postal_code = '".mysql_real_escape_string ($_REQUEST['zip'])."';";
+$sql = "SELECT pref_name,city_name,add_name FROM reference_table WHERE postal_code = '".mysql_real_escape_string($_REQUEST['zip'])."';";
 
 $query = mysql_query($sql);
-//var_dump($sql);
 if(!$query){
     die('実行に失敗しました: ' . mysql_error());
 }
@@ -33,6 +32,13 @@ while($row = mysql_fetch_object($query)){
     'pref_name' => $row->pref_name
     ,'city_name' => $row->city_name
     ,'add_name' => $row->add_name
+    );
+}
+if(empty($user)){
+    $user[] = array(
+    'pref_name' => "郵便番号が間違っているか、存在しない可能性があります"
+    ,'city_name' => ""
+    ,'add_name' => ""
     );
 }
 header('Content-type: application/json');

@@ -14,7 +14,7 @@ if(isset($_POST['kakunin']) || isset($_POST['soshin'])){
     $add1 = h($_POST['add1']);
     $add2 = h($_POST['add2']);
     $add3 = h($_POST['add3']);
-    $toiawase = $_POST['toiawase'];
+    $toiawase = h($_POST['toiawase']);
     
     $errMsg = checkAll($_POST);
     
