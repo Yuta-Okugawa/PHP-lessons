@@ -1,0 +1,967 @@
+2015-08-19 12:51:13 Error: [MissingActionException] Action AppController::Controller() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-19 12:51:58 Error: [MissingControllerException] Controller class HelloController.phpController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 12:53:46 Error: [MissingActionException] Action AppController::Controller() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-19 12:58:26 Error: [MissingActionException] Action AppController::Controller() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-19 13:56:15 Error: [MissingControllerException] Controller class HelloController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 13:56:27 Error: [MissingControllerException] Controller class HelloworldController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 13:56:48 Error: [MissingControllerException] Controller class HelloWorldController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 13:57:02 Error: [MissingControllerException] Controller class HelloWorldController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 13:58:08 Error: [MissingControllerException] Controller class HelloWorldController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 13:59:24 Error: [MissingControllerException] Controller class HelloworldController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 14:00:18 Error: [MissingControllerException] Controller class HelloworldController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 14:00:21 Error: [MissingControllerException] Controller class HelloworldController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 14:00:28 Error: [MissingControllerException] Controller class HelloController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 14:01:07 Error: [MissingControllerException] Controller class HelloController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 14:01:15 Error: [MissingControllerException] Controller class HelloworldController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-19 14:21:10 Error: [MissingActionException] Action HelloController::other() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-19 14:22:25 Error: [MissingActionException] Action HelloController::other() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-20 03:34:14 Error: [MissingActionException] Action AppController::hello() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-20 13:43:26 Error: [MissingControllerException] Controller class CommentsController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-20 13:46:52 Error: [MissingActionException] Action HelloController::index() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-20 13:47:56 Error: [MissingActionException] Action HelloController::index() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 04:07:32 Error: [MissingActionException] Action HelloController::index() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 04:07:49 Error: [MissingActionException] Action HelloController::index() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 04:08:11 Error: [MissingActionException] Action HelloController::index() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 07:13:37 Error: [MissingActionException] Action HelloController::index() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 07:19:30 Error: [MissingTableException] Database table hellos for model Hello was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('hellos')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Hello', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Hello\index.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#9 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-21 07:40:48 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Hello\default.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName('default')
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('default', NULL)
+#2 C:\xampp\htdocs\cake\app\Controller\HelloController.php(11): Controller->render('default')
+#3 [internal function]: HelloController->index()
+#4 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(HelloController), Array)
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-08-21 07:41:25 Error: [MissingTableException] Database table hellos for model Hello was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('hellos')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Hello', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Hello\index.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('index', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\HelloController.php(11): Controller->render('index')
+#9 [internal function]: HelloController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(HelloController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-21 07:47:01 Error: [MissingTableException] Database table hellos for model Hello was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('hellos')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Hello', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Hello\index.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('index', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\HelloController.php(11): Controller->render('index')
+#9 [internal function]: HelloController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(HelloController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-21 08:13:21 Error: [MissingTableException] Database table hellos for model Hello was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('hellos')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Hello', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Hello\index.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#9 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-21 08:13:48 Error: [MissingTableException] Database table hellos for model Hello was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('hellos')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Hello', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Hello\index.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#9 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-21 08:14:24 Error: [MissingTableException] Database table hellos for model Hello was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('hellos')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Hello', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Hello\index.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#9 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-21 08:14:36 Error: [MissingTableException] Database table hellos for model Hello was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('hellos')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Hello', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Hello\index.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#9 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-21 08:14:44 Error: [MissingTableException] Database table hellos for model Hello was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('hellos')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Hello', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Hello\index.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#9 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-21 08:40:22 Error: [MissingControllerException] Controller class HelloController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-21 08:40:47 Error: [MissingControllerException] Controller class ToiawaseController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-21 08:40:59 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('input', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(10): Controller->render('input')
+#9 [internal function]: ToiawaseController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-21 08:47:14 Error: [MissingActionException] Action ToiawaseController::send() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 08:47:26 Error: [MissingActionException] Action ToiawaseController::send() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 08:50:12 Error: [MissingControllerException] Controller class HelloController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-21 08:54:03 Error: [MissingActionException] Action ToiawaseController::ttt() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 08:56:13 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-21 09:17:41 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\index.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-21 09:17:49 Error: [MissingActionException] Action ToiawaseController::index() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 09:28:34 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#9 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-21 09:29:16 Error: [MissingActionException] Action ToiawaseController::input() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 09:29:32 Error: [MissingActionException] Action ToiawaseController::input() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-21 09:29:36 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('input', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(10): Controller->render('input')
+#9 [internal function]: ToiawaseController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-21 09:31:43 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('input', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(10): Controller->render('input')
+#9 [internal function]: ToiawaseController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-21 09:48:50 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('input', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(10): Controller->render('input')
+#9 [internal function]: ToiawaseController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-21 10:00:52 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(7): FormHelper->create()
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('input', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(10): Controller->render('input')
+#9 [internal function]: ToiawaseController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-21 13:08:27 Error: [MissingControllerException] Controller class CheckController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-21 13:37:41 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(5): FormHelper->create(NULL, Array)
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('input', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(10): Controller->render('input')
+#9 [internal function]: ToiawaseController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-21 13:38:17 Error: [MissingControllerException] Controller class ToiawasesController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-21 13:45:10 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(5): FormHelper->create('Toiawase', Array)
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('input', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(10): Controller->render('input')
+#9 [internal function]: ToiawaseController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-21 13:45:15 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(5): FormHelper->create('Toiawase', Array)
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('input', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(10): Controller->render('input')
+#9 [internal function]: ToiawaseController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-21 13:50:33 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 07:53:58 Error: [MissingControllerException] Controller class ToiawaseController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 07:55:08 Error: [MissingControllerException] Controller class ToiawaseController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 07:55:13 Error: [MissingControllerException] Controller class ToiawaseController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 07:55:40 Error: [MissingControllerException] Controller class ToiawaseController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 08:00:36 Error: [MissingControllerException] Controller class ToiawaseController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 09:01:48 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 09:02:44 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 09:03:09 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 09:28:46 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(5): FormHelper->create('Toiawase', Array)
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('input', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(10): Controller->render('input')
+#9 [internal function]: ToiawaseController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-24 09:28:50 Error: [MissingTableException] Database table toiawases for model Toiawase was not found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(3265): Model->setSource('toiawases')
+#1 C:\xampp\htdocs\cake\lib\Cake\Model\Model.php(1223): Model->getDataSource()
+#2 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\cake\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Toiawase', 'fields')
+#4 C:\xampp\htdocs\cake\app\View\Toiawase\input.ctp(5): FormHelper->create('Toiawase', Array)
+#5 C:\xampp\htdocs\cake\lib\Cake\View\View.php(595): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cake\lib\Cake\View\View.php(362): View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render('input', NULL)
+#8 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(10): Controller->render('input')
+#9 [internal function]: ToiawaseController->index()
+#10 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#11 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-08-24 11:40:40 Error: [MissingControllerException] Controller class CheckController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 11:40:55 Error: [MissingControllerException] Controller class CheckController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 11:41:15 Error: [MissingControllerException] Controller class CheckController could not be found.
+#0 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-24 12:57:44 Error: [MissingActionException] Action ToiawaseController::check() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-24 12:58:03 Error: [MissingActionException] Action ToiawaseController::check() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-25 03:47:10 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-25 03:48:46 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-25 13:39:35 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-25 13:42:41 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-25 13:50:05 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-25 14:04:11 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-25 14:32:50 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-25 14:36:59 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 03:54:04 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 03:54:49 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 03:55:44 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 04:11:45 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 04:37:00 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 07:33:06 Error: [SocketException] Unable to connect to SMTP server.
+#0 C:\xampp\htdocs\cake\lib\Cake\Network\Email\SmtpTransport.php(60): SmtpTransport->_connect()
+#1 C:\xampp\htdocs\cake\lib\Cake\Network\Email\CakeEmail.php(967): SmtpTransport->send(Object(CakeEmail))
+#2 C:\xampp\htdocs\cake\app\Controller\ToiawaseController.php(48): CakeEmail->send(Array)
+#3 [internal function]: ToiawaseController->complete()
+#4 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ToiawaseController), Array)
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-08-26 10:40:01 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 10:40:11 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 11:09:22 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 11:22:03 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 11:43:10 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 11:43:32 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 11:44:50 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 12:23:56 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(394): SecurityComponent->blackHole(Object(ToiawaseController), 'auth')
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(199): SecurityComponent->_authRequired(Object(ToiawaseController))
+#2 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#3 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#6 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-08-26 12:30:46 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 12:55:18 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-26 12:58:35 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-26 12:59:33 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-26 13:35:01 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 13:35:01 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 14:07:14 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-26 14:09:36 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-26 15:05:54 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 03:45:35 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(394): SecurityComponent->blackHole(Object(ToiawaseController), 'auth')
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(199): SecurityComponent->_authRequired(Object(ToiawaseController))
+#2 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#3 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#6 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-08-27 03:55:31 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 04:04:23 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-27 04:17:19 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-27 04:17:22 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-27 04:46:11 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\getzip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-27 04:51:51 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\getzip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-27 07:27:37 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 07:27:53 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 07:35:31 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 07:36:03 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 07:36:13 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 07:36:57 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 07:42:29 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 08:38:00 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 08:42:30 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 08:42:55 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 08:47:41 Error: [BadRequestException] The request has been black-holed
+#0 C:\xampp\htdocs\cake\lib\Cake\Controller\Component\SecurityComponent.php(214): SecurityComponent->blackHole(Object(ToiawaseController), 'csrf')
+#1 [internal function]: SecurityComponent->startup(Object(ToiawaseController))
+#2 C:\xampp\htdocs\cake\lib\Cake\Utility\ObjectCollection.php(104): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(606): ObjectCollection->trigger('startup', Array)
+#4 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(101): Controller->startupProcess()
+#5 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-08-27 09:12:34 Error: [MissingActionException] Action ToiawaseController::toiawase() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-27 09:12:48 Error: [MissingActionException] Action ToiawaseController::toiawase() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-27 09:13:27 Error: [MissingActionException] Action ToiawaseController::toiawase() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-27 09:13:57 Error: [MissingActionException] Action ToiawaseController::toiawase() could not be found.
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-27 09:14:01 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-27 09:14:22 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-27 09:14:45 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-27 09:15:02 Error: [MissingViewException] View file "C:\xampp\htdocs\cake\app\View\Toiawase\get_zip.ctp" is missing.
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(ToiawaseController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
