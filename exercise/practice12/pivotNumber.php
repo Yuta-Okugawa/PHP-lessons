@@ -43,6 +43,9 @@ function makeTurnLeftArray($inputNumber){
 }
 
 
+test1message
+
+
 //右回転用のキー番号をもった配列の生成する関数
 function makeTurnRightArray($inputNumber){
     //回転用の配列を作るための配列を設定
